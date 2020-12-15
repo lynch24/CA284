@@ -1,0 +1,24 @@
+I  have been asked to design a program that will prompt for and read an integer in the range -999 to 999 inclusive from the keyboard and then create and output a string that is the value of the integer in words.
+
+
+In this question I would firstly include the libraries #include <stdio.h> and #include <string.h>. 
+
+
+Firstly I would build a function that checks whether the number inputted by the user is valid
+It  is named  int input_check( int number). 
+1.it would make sure that the would be between the values -999 and 999,
+ it will also take into account the number  zero and ensure that it still runs.
+2. The second part of the function would deal with if the number inputted is  greater than or less than the range given and if it is invalid it will return ‘error’.
+
+Secondly I would build another function to convert  the number inputted into a string, 
+this would be called int num_to_string(int number, int char*s). 
+1. This function would take in the number and convert it into the appropriate string, 
+2 .it will take the input and iterate through the number and check whether the number is in the hundreds, thirties, fifties etc.
+
+
+Finally in my Int main(int number, char *s) i will call upon my functions,
+ my plan here would be to declare my variables say int string and int n and and produce an output with my previous functions.
+  For example i would check if the number was valid through an if statement and if not produce ‘Invalid Number entered’ and for structure i would use num_to_string in and if statement and structure the output carefully.
+
+
+

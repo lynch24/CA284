@@ -1,0 +1,12 @@
+Assessment 3 Information:
+
+1.Basic C syntax;
+2.Functions;
+3.call-by-value and call-byreference;
+4.arrays using standard index-based notation;
+5.pointers;
+6.logical and bitwise operators;
+7.dynamic memory allocation;
+8.good program design.
+
+
